@@ -28,7 +28,7 @@ class AlienInvasion:
         pygame.display.set_caption("Alien Invasion")
 
         # Cargar y redimensionar la imagen de fondo al tamaño de la pantalla
-        self.background = pygame.image.load('C:/Users/User/OneDrive - UCompensar/Mao/Estudios/U Compensar/Semestre 1/Logica Matematica y Programacion/Taller Final/imagenes/fondo.jpg')
+        self.background = pygame.image.load(r"imagenes/fondo.jpg")
         self.background = pygame.transform.scale(
             self.background, (self.settings.screen_width, self.settings.screen_height)
         )
